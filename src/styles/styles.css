@@ -2,3 +2,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* typography */
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.header {
+    color: #fff;
+}
+
+.header__title {
+    font-weight: 700;
+    letter-spacing: -0.1em;
+}
+
+.header__subtitle {
+    font-weight: 500;
+}
+
+.App {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    border: 4px solid #672280;
+    height: 100%;
+}
+
+
+/* header */
+
+.header {
+    width: 100%;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.header__subtitle {
+    margin-left: auto;
+}
+
+.header__logo {
+    width: 50px;
+    margin-right: 1rem;
+}
