@@ -23,11 +23,23 @@ body {
     font-weight: 500;
 }
 
+.meme__form--btn {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.15rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.meme__form--inputs {
+    font-family: 'Karla', sans-serif;
+}
+
 .App {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 1000px;
+    min-width: 400px;
+    max-width: 1000px;
     border: 4px solid #672280;
     height: 100%;
 }
@@ -52,4 +64,44 @@ body {
 .header__logo {
     width: 50px;
     margin-right: 1rem;
+}
+
+
+/* meme component */
+
+.meme {
+    width: 100%;
+    padding: 40px;
+}
+
+.meme__form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.meme__form--bottom,
+.meme__form--upper {
+    flex: 0 0 45%;
+    height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+}
+
+.meme__form--btn {
+    flex: 0 0 100%;
+    margin-top: 20px;
+    padding: 0;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+}
+
+.meme__form--btn:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
